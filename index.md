@@ -1,3 +1,3 @@
-## Welcome to https://mariangemarcano.github.io/
+## Welcome to my repo
 
-Collection of spare time projects and software development playground field :-)
+Here you'll find my personal github blog.
