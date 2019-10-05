@@ -23,4 +23,4 @@ Execute `$ dotnet run -c RELEASE`, specifying the benchmark project path.
 
 ### Output example
 
-<img src="../../resources/FibonacciBenchmark.png"/>
+<img src="resources/FibonacciBenchmark.png"/>
