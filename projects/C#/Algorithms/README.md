@@ -26,3 +26,21 @@ Execute `$ dotnet run -c RELEASE`, specifying the benchmark project path.
 ### Output example
 
 <img src="resources/FibonacciBenchmark.png"/>
+
+# Using mono
+
+## Setup
+
+[Install mono](https://www.mono-project.com/download/stable/)
+
+## Build
+
+msbuild /p:Configuration=Release Algorithms.sln
+
+## Benchmark
+
+Execute `$ mono benchmarks/Fibonacci.Benchmarks/bin/Release/net47/Fibonacci.Benchmark.exe`, specifying the benchmark project path.
+
+### Output example
+
+<img src="resources/FibonacciBenchmark-mono.png" />
