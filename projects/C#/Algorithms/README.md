@@ -21,7 +21,7 @@ Execute `dotnet test`, specifying the test project path.
 ## Benchmark
 
 Execute `$ dotnet run -c RELEASE`, specifying the benchmark project path.
-`$ dotnet run -c RELEASE --project benchmarks/Fibonacci.Benchmarks/Fibonacci.Benchmarks.csproj`
+`$ dotnet run -c RELEASE --framework netcoreapp3.0 --project benchmarks/Fibonacci.Benchmarks/Fibonacci.Benchmarks.csproj`
 
 ### Output example
 
@@ -35,11 +35,11 @@ Execute `$ dotnet run -c RELEASE`, specifying the benchmark project path.
 
 ## Build
 
-msbuild /p:Configuration=Release Algorithms.sln
+`msbuild /p:Configuration=Release Algorithms.sln`
 
 ## Benchmark
 
-Execute `$ mono benchmarks/Fibonacci.Benchmarks/bin/Release/net47/Fibonacci.Benchmark.exe`, specifying the benchmark project path.
+Execute `$ mono benchmarks/Fibonacci.Benchmarks/bin/Release/net47/Fibonacci.Benchmarks.exe`, specifying the benchmark project path.
 
 ### Output example
 
