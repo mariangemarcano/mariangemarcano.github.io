@@ -43,4 +43,6 @@ Execute `$ mono benchmarks/Fibonacci.Benchmarks/bin/Release/net47/Fibonacci.Benc
 
 ### Output example
 
+Mono currently does not expose any api to get the number of allocated bytes. See restrictions: https://benchmarkdotnet.org/articles/configs/diagnosers.html#restrictions
+
 <img src="resources/FibonacciBenchmark-mono.png" />
