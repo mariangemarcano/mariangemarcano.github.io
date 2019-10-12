@@ -2,7 +2,7 @@ using BenchmarkDotNet.Attributes;
 using Fibonacci;
 
 [MemoryDiagnoser, MonoJob, CoreJob]
-public class FibonacciBenchmarks 
+public class FibonacciBenchmarks
 {
     [Benchmark]
     public double CalculateRecursive30() => new FibonacciRecursive().Calculate(30);
