@@ -1,4 +1,4 @@
-name: dotnet-fibonacci-unit-tests
+name: algorithms-dotnet-unit-tests
 on: [push]
 
 jobs:
@@ -14,3 +14,7 @@ jobs:
         run: dotnet build projects/C#/Algorithms/src/Fibonacci/Fibonacci.csproj
       - name: Test fibonacci library
         run: dotnet test projects/C#/Algorithms/tests/Fibonacci.Tests/Fibonacci.Tests.csproj
+      - name: Build sort library
+        run: dotnet build projects/C#/Algorithms/src/Sort/Sort.csproj
+      - name: Test sort library
+        run: dotnet test projects/C#/Algorithms/tests/Sort.Tests/Sort.Tests.csproj
