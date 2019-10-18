@@ -1,0 +1,17 @@
+name: Run fibonacci tests
+on: [push]
+
+jobs:
+  build:
+    name: Build fibonacci
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Setup .NET Core
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 3.0.100
+      - name: Build fibonacci library
+        run: dotnet build src/Fibonacci/Fibonacci.csproj
+      - name: Test fibonacci library
+        run: dotnet test tests/Fibonacci.Tests/Fibonacci.Tests.csproj
