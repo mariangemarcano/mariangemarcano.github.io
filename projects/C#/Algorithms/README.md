@@ -2,7 +2,7 @@
 
 Benchmark the performance of different algorithm's implementations.
 
-![Actions Status](https://github.com/mariangemarcano/mariangemarcano.github.io/.github/workflows/fibonacci-workflow.yml/badge.svg)
+![Fibonacci Actions Status](https://github.com/mariangemarcano/mariangemarcano.github.io/.github/workflows/fibonacci-workflow.yml/badge.svg)
 
 [View project](https://github.com/mariangemarcano/mariangemarcano.github.io/tree/master/projects/C%23/Algorithms)
 

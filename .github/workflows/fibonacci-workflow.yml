@@ -12,6 +12,6 @@ jobs:
         with:
           dotnet-version: 3.0.100
       - name: Build fibonacci library
-        run: dotnet build src/Fibonacci/Fibonacci.csproj
+        run: dotnet build projects/C#/Algorithms/src/Fibonacci/Fibonacci.csproj
       - name: Test fibonacci library
-        run: dotnet test tests/Fibonacci.Tests/Fibonacci.Tests.csproj
+        run: dotnet test projects/C#/Algorithms/tests/Fibonacci.Tests/Fibonacci.Tests.csproj
