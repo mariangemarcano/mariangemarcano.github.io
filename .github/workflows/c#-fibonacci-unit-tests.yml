@@ -1,4 +1,3 @@
-name: c#-fibonacci-unit-tests
 on: [push]
 
 jobs:
