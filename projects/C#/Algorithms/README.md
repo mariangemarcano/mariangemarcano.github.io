@@ -2,7 +2,7 @@
 
 Benchmark the performance of different algorithm's implementations.
 
-![Fibonacci Actions Status](https://github.com/mariangemarcano/mariangemarcano.github.io/workflows/c#-fibonacci-unit-tests/badge.svg)
+![Fibonacci Actions Status](https://github.com/mariangemarcano/mariangemarcano.github.io/workflows/dotnet-fibonacci-unit-tests/badge.svg)
 
 [View project](https://github.com/mariangemarcano/mariangemarcano.github.io/tree/master/projects/C%23/Algorithms)
 
