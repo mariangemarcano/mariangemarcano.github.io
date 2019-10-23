@@ -1,4 +1,4 @@
-# Algorithims
+# Algorithms
 
 Benchmark the performance of different algorithm's implementations.
 
