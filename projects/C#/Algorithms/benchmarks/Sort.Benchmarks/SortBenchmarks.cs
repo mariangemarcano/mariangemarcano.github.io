@@ -27,5 +27,9 @@ namespace Sort.Benchmarks
 
         [Benchmark]
         public int[] MergeSort() => new BottomUpMergeSort().Sort(GetUnsorted(1000));
+
+        [Benchmark]
+        public int[] QuickSort() => new QuickSort().Sort(GetUnsorted(1000));
+
     }
 }
